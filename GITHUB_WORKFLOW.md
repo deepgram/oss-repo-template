@@ -38,7 +38,7 @@ However, it is important to understand [this project's branching process](https:
 
 ## 1. Fork in the Cloud
 
-1. Visit the repo in which would like to contribute to
+1. Visit the repo in which you would like to contribute to
 2. Click `Fork` button (top right) to establish a cloud-based fork.
 
 ## 2. Clone Fork to Local Storage
@@ -119,11 +119,10 @@ When your changes are ready for review, push your working branch to your fork on
 git push --set-upstream origin myfeature
 ```
 
-If got an error with this 
 
 ## 7. (If Needed) Keep Your Branch in Sync
 
-You will need to periodically fetch changes from the `upstream` repository to keep your working branch in sync. Note that depending on which repository you are working from, the default branch may be called `master` instead of `main`.
+You will need to periodically fetch changes from the `upstream` repository to keep your working branch in sync.
 
 Make sure your local repository is on your working branch and run the following commands to keep it in sync:
 
@@ -134,7 +133,7 @@ git rebase upstream/main
 
 > Please don't use `git pull` instead of the above `fetch` and `rebase`. Since `git pull` executes a merge, it creates merge commits. These make the commit history messy and violate the principle that commits ought to be individually understandable and useful.
 
-If you do have conflicts after the `git rebase`, you can get the list of files with conflicts but using `git status`. The items in red are the items needing conflict resolution. Once you do resolve them, you can individually add them back into the rebase.
+If you do have conflicts after the `git rebase`, you can get the list of files with conflicts by using `git status`. The items in red are the items needing conflict resolution. Once you do resolve them, you can individually add them back into the rebase.
 
 ```bash
 # what items need resolving
@@ -160,7 +159,7 @@ Once the rebase is successful, you probably want to clean up the [commit message
 git commit --amend
 ```
 
-After doing this, nmove onto the next step.
+After doing this, move onto the next step.
 
 ## 8. Create a Pull Request
 
@@ -211,7 +210,7 @@ To squash your commits, perform an [interactive rebase](https://git-scm.com/book
 
 1. Start an interactive rebase using a specific commit hash, or count backwards from your last commit using `HEAD~<n>`, where `<n>` represents the number of commits to include in the rebase.
 
-  To get this `<n>` value, the easiest way to doing this is running `git log` and then count number of commits until you hit `main` (this may be called `master` instead depending on the repo) but not including `main`.
+  To get this `<n>` value, the easiest way to do this is to run `git log` and then count the number of commits until you hit `main` but not including `main`.
 
   ```bash
   git log
@@ -266,10 +265,9 @@ To squash your commits, perform an [interactive rebase](https://git-scm.com/book
   ```bash
   git push --force
   ```
-  
 ## 11. Merging a commit
 
-Once you've received review and approval, your commits are squashed, your PR is ready for merging.
+Once you've received review and approval, your commits are squashed, and your PR is ready for merging.
 
 Merging happens automatically after both a Reviewer and Approver have approved the PR. If you haven't squashed your commits, they may ask you to do so before approving a PR.
 
@@ -279,7 +277,7 @@ In case you wish to revert a commit, use the following instructions.
 
 _If you have upstream write access_, please refrain from using the `Revert` button in the GitHub UI for creating the PR, because GitHub will create the PR branch inside the main repository rather than inside your fork.
 
-- Create a branch and sync it with upstream. Note that depending on which repository you are working from, the default branch may be called `master` instead of `main`.
+- Create a branch and sync it with upstream.
 
   ```bash
   # create a branch
