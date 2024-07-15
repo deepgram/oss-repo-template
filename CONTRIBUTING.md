@@ -12,6 +12,7 @@
 
     Then delete this comment from the top of this file.
 -->
+
 # Contributing Guidelines
 
 Want to contribute to this project? We ❤️ it!

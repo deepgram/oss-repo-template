@@ -7,8 +7,9 @@
         <!-- TODO: PROJECT_REPO_NAME --/> TO "YOUR REPO NAME" (ie deepgram-js-sdk)
         <!-- TODO: LANGUAGE --/> TO "THE PROGRAMMING LANGAUGE" (ie Go)
 
-    Search for any other `<!-- TODO:` (without the `) and provide any details you might want to include.
-    These TODOs are usually project specific things, so you will need to either fill the placeholder out or delete it.
+    Search for any other `<!-- TODO:` (without the `) and provide any details you might want to include. These TODOs are usually project specific things, so you will need to either fill the placeholder out or delete it.
+
+    This is the "typcial" github workflow and used by the majority of developers on GitHub; however, if there is anything specific to your project, add, remove, change, etc steps as needed. Again, this is just the "typical" GitHub workflow.
 
     Then delete this comment from the top of this file.
 -->

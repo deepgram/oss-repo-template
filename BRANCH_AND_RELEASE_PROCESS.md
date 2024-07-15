@@ -76,7 +76,6 @@ Each of these strategies has its own strengths and is chosen based on the specif
 
 -->
 
-
 ### Why Pick This Strategy?
 
 <!-- TODO:

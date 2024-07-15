@@ -7,11 +7,13 @@
         <!-- TODO: PROJECT_REPO_NAME --/> TO "YOUR REPO NAME" (ie deepgram-js-sdk)
         <!-- TODO: LANGUAGE --/> TO "THE PROGRAMMING LANGAUGE" (ie Go)
 
-    Search for any other `<!-- TODO:` (without the `) and provide any details you might want to include.
-    These TODOs are usually project specific things, so you will need to either fill the placeholder out or delete it.
+    Search for any other `<!-- TODO:` (without the `) and provide any details you might want to include. These TODOs are usually project specific things, so you will need to either fill the placeholder out or delete it.
+
+    Additionally, each of these sections are only instructions for popular tools, OS configurations, etc. If they dont pertain to your specific project, delete any section needed.
 
     Then delete this comment from the top of this file.
 -->
+
 # Development Guide
 
 - [Development Guide](#development-guide)
