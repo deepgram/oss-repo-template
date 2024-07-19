@@ -42,7 +42,7 @@ Where needed, each piece of required software will have separate instructions fo
 
 ### Setting Up macOS
 
-Parts of this project assumes you are using GNU command line tools, you will need to install those tools on your system. [Follow these directions to install the tools](https://ryanparman.com/posts/2019/using-gnu-command-line-tools-in-macos-instead-of-freebsd-tools/).
+Parts of this project assume you are using GNU command line tools; you will need to install those tools on your system. [Follow these directions to install the tools](https://ryanparman.com/posts/2019/using-gnu-command-line-tools-in-macos-instead-of-freebsd-tools/).
 
 In particular, this command installs the necessary packages:
 
@@ -69,10 +69,10 @@ This ensures that the GNU tools are found first in your path. Note that shell in
 
 If you are running Windows, you will need to use one of two methods to set up your machine. To figure out which method is the best choice, you will first need to determine which version of Windows you are running. To do this, press Windows logo key + R, type winver, and click OK. You may also enter the ver command at the Windows Command Prompt.
 
-- If you're using Windows 10, Version 2004, Build 19041 or higher, you can use Windows Subsystem for Linux (WSL) to build Kubernetes. [Follow these instructions to install WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+- If you're using Windows 10, Version 2004, Build 19041 or higher, you can use Windows Subsystem for Linux (WSL) to perform various tasks. [Follow these instructions to install WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 - If you're using an earlier version of Windows, then create a Linux virtual machine with at least 8GB of memory and 60GB of disk space.
 
-Once you have finished setting up your WSL2 installation or Linux VM, follow the instructions below to configure your system for building and developing Kubernetes.
+Once you have finished setting up your WSL2 installation or Linux VM, follow the instructions below to configure your system for building and developing code.
 
 ## Installing Required Software
 
@@ -139,7 +139,7 @@ Once you have the basics, you can download and install any project specific depe
 make ensure-deps
 ```
 
-If you are have not forked and `git clone`'ed your fork, please review the next section.
+If you have not forked and `git clone`'ed your fork, please review the next section.
 
 ## GitHub Workflow
 
